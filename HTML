@@ -6,15 +6,10 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <script>
 
-        var index = 0;
-        var imageSources = [
-            'image1.jpg',
-            'image2.jpg',
-            'image3.jpg'
-        ];
+        var index = 1;
         function cycle(increment) {
             index = index + increment;
-            document.getElementById("image").src = imageSources[index]
+            document.getElementById("image").src = 'image' + index + '.jpg';
         }
     </script>
 </head>
